@@ -1,43 +1,117 @@
 body {
-    margin: 60px auto;
-    width: 70%;
-}
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+  }
+  
+.display-4 {
+    color: #54728e;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+#name .display-4 {
+    color: white;
 }
 
-ul.posts li {
+  .jumbotron-fluid {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color:#54728e;
+    color: white;
+    height: 65vh;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+    margin-bottom: 10vh;
+  }
+
+  .jumbotron-fluid .container .h5 {
+      margin-top: 2vh;
+  }
+
+  #name {
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    width: 225px;
+    display: inline-block;
+    overflow: auto;
+  }
+
+  #about-me {
+      height: 70vh;
+  }
+  
+  .rounded-photo {
+      border-radius: 50%;
+      height: 250px;
+  }
+
+  .icon {
+      height: 30px;
+  }
+
+  #about-me ul {
     list-style: none;
-}
+    margin-top: 20px;
+  }
+
+  #blurb {
+    align-items: center;
+  }
+
+  .description {
+      margin-bottom: 5vh;
+  }
+
+  .carousel-item {
+    padding: 15vh;
+  }
+
+  #work-experience .display-4 {
+      margin-bottom: 5vh;
+  }
+
+  #experience-carousel {
+    background-color: #cfd9e2;
+    height: 75vh;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vh;
+  }
+
+  .carousel-inner h2 {
+      margin-bottom: 3vh;
+      margin-left: 3vh;
+  }
+
+  #projects {
+    margin: 15vh auto;
+  }
+
+  #projects .display-4 {
+    margin-right: 5vh;
+  }
+
+  #projects .card {
+    margin: 3vh auto;
+    background-color: #cfd9e2;
+  }
+
+  #education {
+    margin: 15vh auto;
+  }
+
+  #education .display-4 {
+    margin-bottom: 3vh;
+  }
+
+  #uni-info {
+    margin-bottom: 3vh;
+  }
+
+  #uni-info h4 {
+    margin-right: 10vh;
+  }
+
+  #relevant {
+    margin-bottom: 2vh;
+  }

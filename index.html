@@ -1,9 +1,189 @@
----
-layout: default
-title: Anne Wang
----
-<div class="blurb">
-	<h1>Hi there, I'm Anne Wang!</h1>
-	<p>I'm a 1A student at the University of Waterloo, majoring in Computer Engineering.</p>
-</div><!-- /.blurb -->
- 
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<title>Anne Wang</title>
+</head>
+
+<body>
+	<div class="jumbotron-fluid">
+		<div class="container">
+			<div id="name">
+				<h1 class="display-4 text-center">ANNE WANG</h1>
+			</div>
+			<p class="h5">1B Computer Engineering<br>University of Waterloo</p>
+		</div>
+	</div>
+
+	<div class="container" id="about-me">
+		<div class="row">
+			<div class="col text-center">
+				<img class="rounded-photo" src="IMG_8616 2.JPG" alt="A surprisingly good photo">
+				<div class="row justify-content-md-center">
+					<ul class="col-md-auto">
+						<div class="row">
+						<li class="col-sm"><a href="mailto:a97wang@uwaterloo.ca"><img class="icon" src="icons/letter.svg" alt="Letter icon made by https://www.flaticon.com/authors/nas-ztudio"></a></li>
+						<li class="col-sm"><a href="https://github.com/annewang27"><img class="icon" src="icons/github-sign.svg" alt="Github icon made by https://www.flaticon.com/authors/dave-gandy"></a></li>
+						<li class="col-sm"><a href="https://www.linkedin.com/in/AnneWang27/"><img class="icon" src="icons/linkedin-logo.svg" alt="Linkedin icon made by https://www.flaticon.com/authors/google"></a></li>
+						</div>
+					</ul>
+				</div>
+			</div>
+			<div class="col" id="blurb">
+				<h1 class="display-4">Hi!</h1>
+				<p>I’m Anne, a 1B student studying Computer Engineering at the University of Waterloo. I love learning, so I’ve dabbled in over 15 programming languages/frameworks, but my current favourites are JavaScript, 
+					Java, and C++/C. I’m also currently learning VHDL and Bootstrap, but plan on spending more time with PHP and MySql in the near future. In addition, I'm a strong leader and planned and ran a basketball 
+					summer camp over the past two summers. Outside of programming, I enjoy photography, travel, and space and I’m part of a group of undergraduate students at UW designing a hybrid rocket which will 
+					(hopefully) reach over 30K feet at IREC (the Intercollegiate Rocket Engineering Competition) this June.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container justify-content-md-center" id="work-experience">
+		<h1 class="display-4 col">Work Experience</h1>
+		<div class="row">
+		<h2 class="col-lg-6">Software Developer in Test <small class="text-muted">Mappedin</small></h2>
+		<h3 class="col-lg-6 text-muted text-right">Jan 2019 - Apr 2019</h3>
+		</div>
+		<div class="container description">
+			<p>
+				Thanks to the smaller company size and the flexibility of my team, I had the amazing opportunity to work on four different key products. I gained exposure to a wide variety of programming languages and 
+				frameworks including everything from the huge variety of available javascript frameworks to OpenGL to Ant Design and React. In addition, although I initially started out doing the things I was hired for, 
+				like manual testing iOS apps and developing basic unit tests, I was quickly able to move on to independently creating complex integration tests, adding new features on a variety of platforms, and even 
+				implementing a huge new animation feature on our Android SDK.
+			</p>
+		</div>
+		
+		<div class="col-md">
+		<div id="experience-carousel" class="carousel slide" data-ride="carousel" data-interval="false">
+			<ul class="carousel-indicators">
+				<li data-target="#experience-carousel" data-slide-to="0" class="active"></li>
+				<li data-target="#experience-carousel" data-slide-to="1"></li>
+				<li data-target="#experience-carousel" data-slide-to="2"></li>
+				<li data-target="#experience-carousel" data-slide-to="3"></li>
+			</ul>
+				
+			<div class="carousel-inner">
+				<div class="carousel-item active" id="node">
+					<h2>Node.js Sync Platform</h2>
+					<ul>
+						<li>Developed unit tests of complex systems using mocha / chai, sinon, and nock to improve test coverage by around 10%.</li>
+						<li>Implemented bug fixes and new features using a variety of javascript libraries such as Joi and Lodash.</li>
+						<li>Independently developed the first integration test spanning five key products and almost every development team! Before, devs had no way of truly knowing the effects new features had on other products until after they were released to the public.</li>
+						<li>Added Sentry integration with thorough documentation to improve error handling abilities of the platform. This allowed over 20 unknown bugs to be caught within the first month of use.</li>
+					</ul>
+				</div>
+			
+				<div class="carousel-item" id="android">
+					<h2>Android SDK</h2>
+					<ul>
+						<li>Greatly improved overall UX using XML on sample apps sent to current and potential customers considering the use of Mappedin's Android SDK</li>
+						<li>Implemented bug fixes and updates using JCPT for features based on customer requests.</li>
+						<li>Developed a new, highly requested animated pulse feature using OpenGL, shaders, and tweens with a wide variety of customization options.</li>
+					</ul>
+				</div>
+			
+				<div class="carousel-item" id="ios">
+						<h2>Web App</h2>
+						<ul>
+							<li>Developed new features to improve UX using React, Redux and Ant Design.</li>
+						</ul>
+				</div>
+
+				<div class="carousel-item" id="web">
+						<h2>iOS SDK</h2>
+						<ul>
+							<li>Conducted thorough tests of new features through manual tests and unit tests using XCTest.</li>
+						</ul>
+				</div>
+			</div>
+			<!-- Left and right controls -->
+			<a class="carousel-control-prev" href="#experience-carousel" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				  </a>
+				  <a class="carousel-control-next" href="#experience-carousel" role="button" data-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				  </a>
+			</div>
+		</div>
+	</div>
+
+	<div class="container" id="projects">
+		<h1 class="display-4 text-right">Projects</h1>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="card">
+						<img src="icons/Screen Shot 2019-05-19 at 1.40.47 PM.png" class="card-img-top" alt="pcb board on kiCad">
+						<div class="card-body">
+							<h5 class="card-title">Waterloo Rocketry</h5>
+							<h6 class="card-subtitle mb-2 text-muted">C, KiCad</h6>
+							<p class="card-text">As a member of the electrical team, I designed PCBs (printed circuit boards) and wrote SPI (serial peripheral interface) based code for sensors and other 
+								components which will be attached to a CAN (control area network) bus placed in the rocket, allowing us to capture critical info during setup and launch. I also upgraded 
+								the CAN bus library to ensure that critical messages aren’t lost when the transmit buffers run out of room. Other responsibilities include testing, debugging, and assembling 
+								PCBs using a variety of methods including hand soldering and reflow soldering.</p>
+							<a href="https://github.com/waterloo-rocketry" class="card-link">Github</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="card">
+						<img src="icons/Screen Shot 2019-05-20 at 4.23.52 PM.png" class="card-img-top" alt="Firemap">
+						<div class="card-body">
+							<h5 class="card-title">Firemap</h5>
+							<h6 class="card-subtitle mb-2 text-muted">JS, HTML, CSS</h6>
+							<p class="card-text">Created during the NASA / CSA 2018 Space Apps hackathon, this web app was designed to quickly show the public the fire risk anywhere around the world using raster graphics with a simple click. Uses APIs such as Google Maps API and OpenWeatherMap.</p>
+							<a href="https://github.com/yfxu/Project-Firemap" class="card-link">Github</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container" id="education">
+		<h1 class="display-4">Education</h1>
+		<div class="container" id="uni-info">
+			<h3>University of Waterloo</h3>
+			<div class="row">
+				<div class="col">
+					<h4 class="text-muted">Computer Engineering</h4>
+				</div>
+				<div class="col text-right">
+					<h4 class="text-muted">2023</h4>
+				</div>
+			</div>
+		</div>
+		<div class="container description">
+				I’m currently in my 1B term at the University of Waterloo studying computer engineering. In 1A, I was ranked 6th out of 223 students in all of ECE and maintained a 90% average, and was placed on 
+				the Dean’s list while still finding time to be involved in student design teams and extracurricular clubs. I was also awarded the Faculty of Engineering Scholarship and the President’s Scholarship of Distinction.
+		</div>
+		<div class="container">
+			<h4 id="relevant">Relevant Courses</h4>
+			<div class="row">
+				<div class="col-sm-6">
+					<h5>Fundamentals of Programming</h5>
+					<h6 class="text-muted">ECE 150</h6>
+					<p>Learned the fundamentals of object oriented programming through C++.</p>
+				</div>
+				<div class="col-sm-6">
+					<h5>Digital Circuits and Systems</h5>
+					<h6 class="text-muted">ECE 124</h6>
+					<p>Learning about boolean algebra and functions along with VHDL and other low-level hardware description languages.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Bootstrap script requirements -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

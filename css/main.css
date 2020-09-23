@@ -18,7 +18,9 @@ body {
     background-color:#54728e;
     color: white;
     height: 65vh;
-    text-shadow: 0.25px 0.25px 0.25px #000000;
+    min-height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* text-shadow: 0.25px 0.25px 0.25px #000000; */
     margin-bottom: 10vh;
   }
 
@@ -33,10 +35,6 @@ body {
     width: 225px;
     display: inline-block;
     overflow: auto;
-  }
-
-  #about-me {
-      height: 70vh;
   }
   
   .rounded-photo {
@@ -55,6 +53,7 @@ body {
 
   #blurb {
     align-items: center;
+    margin-bottom: 50px;
   }
 
   .description {
@@ -76,6 +75,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
   .carousel-inner h2 {
@@ -94,6 +94,7 @@ body {
   #projects .card {
     margin: 3vh auto;
     background-color: #cfd9e2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
   #education {

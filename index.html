@@ -67,72 +67,177 @@
 
 	<div class="container justify-content-md-center" id="work-experience">
 		<h1 class="display-4 col">Work Experience</h1>
-		<div class="row">
-		<h2 class="col-lg-6">Software Developer in Test 
-			<br>
-			<small class="text-muted">Mappedin</small>
-		</h2>
-		<h3 class="col-lg-6 text-muted text-right">Jan 2019 - Apr 2019</h3>
+		<div class="position">
+			<div class="row" id="position-title">
+				<h2 class="col-lg-6">Software Engineering Intern
+					<br>
+					<small class="text-muted">Uber ATG</small>
+				</h2>
+				<h3 class="col-lg-6 text-muted text-right">May 2020 - Aug 2020</h3>
+			</div>
+			<div class="container description">
+				<p>
+					Last summer, I had the privilege of working at Uber ATG to develop the technology that would allow autonomous 
+					vehicles to safely share our streets. The team I was on developed complex machine learning models which were 
+					able to detect and label important things, such as pedestrians and vehicles, using LiDAR data. While I didn't 
+					get a chance to directly improve these models, I worked closely with other members of my team to research, propose, 
+					and implement light weight metrics to monitor the performance of these models without relying on ground truth data, 
+					which is extremely expensive to produce. Since the metrics I implemented didn't add any significant overhead, we 
+					were able to collect these metrics in real time in Honeycomb and AWS. In addition, while analyzing the results 
+					of these metrics, we discovered that one metric could also be used as a powerful debugging tool for model training. 
+					Over the course of the summer, I presented bi-weekly deep dives about my project including a final deep dive and 
+					project showcase presented to the entire company. 
+				</p>
+			</div>
 		</div>
-		<div class="container description">
-			<p>
-				Thanks to the smaller company size and the flexibility of my team, I had the amazing opportunity to work on four different key products. I gained exposure to a wide variety of programming languages and 
-				frameworks including everything from the huge variety of available javascript frameworks to OpenGL to Ant Design and React. In addition, although I initially started out doing the things I was hired for, 
-				like manual testing iOS apps and developing basic unit tests, I was quickly able to move on to independently creating complex integration tests, adding new features on a variety of platforms, and even 
-				implementing a huge new animation feature on our Android SDK.
-			</p>
-		</div>
-		
-		<div class="col-md">
-		<div id="experience-carousel" class="carousel slide" data-ride="carousel" data-interval="false">
-			<ul class="carousel-indicators">
-				<li data-target="#experience-carousel" data-slide-to="0" class="active"></li>
-				<li data-target="#experience-carousel" data-slide-to="1"></li>
-				<li data-target="#experience-carousel" data-slide-to="2"></li>
-				<li data-target="#experience-carousel" data-slide-to="3"></li>
-			</ul>
-				
-			<div class="carousel-inner">
-				<div class="carousel-item active" id="node">
-					<h2>Node.js Sync Platform</h2>
-					<ul>
-						<li>Developed unit tests of complex systems using mocha / chai, sinon, and nock to improve test coverage by around 10%.</li>
-						<li>Implemented bug fixes and new features using a variety of javascript libraries such as Joi and Lodash.</li>
-						<li>Independently developed the first integration test spanning five key products and almost every development team! Before, devs had no way of truly knowing the effects new features had on other products until after they were released to the public.</li>
-						<li>Added Sentry integration with thorough documentation to improve error handling abilities of the platform. This allowed over 20 unknown bugs to be caught within the first month of use.</li>
+		<div class="position">
+			<div class="row" id="position-title">
+				<h2 class="col-lg-6">Software Developer
+					<br>
+					<small class="text-muted">CIBC Live Labs</small>
+				</h2>
+				<h3 class="col-lg-6 text-muted text-right">Sept 2019 - Dec 2019</h3>
+			</div>
+			<div class="container description">
+				<p>
+					Despite being funded by a large bank, working at Live Labs really felt more like working at a tiny startup with 
+					a small team of 3 full-time employees and 3 other co-op students. Along with a UX designer and a product manager, 
+					we created, from ideation to release, 3 pilot projects including native iOS and Android apps leveraging two different 
+					types of machine learning models. The projects we worked on were incredibly diverse so I was required to very quickly 
+					pickup tons of new languages and frameworks which allowed me to really grow as a software developer. Since we were 
+					such a small team, we were expected to act as full-time employees and often ended up becoming the team expert on a 
+					pilot. This gave me a really strong sense of ownership over the products that I built and the work I did; so much 
+					so that I received a rating of 'Outstanding' on the final work term evaluation for my “incredible ability to learn 
+					new software and take ownership of [my] work”.
+				</p>
+			</div>
+			<div class="col-md">
+				<div id="experience-carousel" class="carousel slide" data-ride="carousel" data-interval="false">
+					<ul class="carousel-indicators">
+						<li data-target="#experience-carousel" data-slide-to="0" class="active"></li>
+						<li data-target="#experience-carousel" data-slide-to="1"></li>
+						<li data-target="#experience-carousel" data-slide-to="2"></li>
 					</ul>
-				</div>
-			
-				<div class="carousel-item" id="android">
-					<h2>Android SDK</h2>
-					<ul>
-						<li>Greatly improved overall UX using XML on sample apps sent to current and potential customers considering the use of Mappedin's Android SDK</li>
-						<li>Implemented bug fixes and updates using JCPT for features based on customer requests.</li>
-						<li>Developed a new, highly requested animated pulse feature using OpenGL, shaders, and tweens with a wide variety of customization options.</li>
-					</ul>
-				</div>
-			
-				<div class="carousel-item" id="ios">
-						<h2>Web App</h2>
-						<ul>
-							<li>Developed new features to improve UX using React, Redux and Ant Design.</li>
-						</ul>
-				</div>
+						
+					<div class="carousel-inner">
+						<div class="carousel-item active" id="currency_scanner">
+							<h2>Native iOS and Android App</h2>
+							<ul>
+								<li>
+									Worked closely with PMs and UX designers to develop and release a native Android and iOS app 
+									from scratch in one month which uses technology such as a built-in YOLO-based machine learning 
+									model for real time image recognition.
+								</li>
+								<li>
+									Incorporated Google Firebase for remote config and analytics purposes. 
+								</li>
+								<li>
+									Presented the final product to over 120 employees from the rest of CIBC to decide whether or 
+									not the pilot would be put on the official road map.
+								</li>
+							</ul>
+						</div>
+					
+						<div class="carousel-item" id="inflight">
+							<h2>Website</h2>
+							<ul>
+								<li>
+									Designed and developed a web app with a Spring based Java REST API backend utilizing a 
+									Mongo database and a frontend designed using React with Redux and Bootstrap.
+								</li>
+								<li>
+									Completely refactored fullstack authentication and website design to better fit security 
+									requirements utilizing new endpoints requiring a wide array of varied security parameters 
+									and authorization tokens including JWT authentication and security filters.
+								</li>
+							</ul>
+						</div>
 
-				<div class="carousel-item" id="web">
-						<h2>iOS SDK</h2>
-						<ul>
-							<li>Conducted thorough tests of new features through manual tests and unit tests using XCTest.</li>
-						</ul>
+						<div class="carousel-item" id="ocr_login">
+							<h2>OCR Login Feature</h2>
+							<ul>
+								<li>Leveraged new OCR machine learning technology to implement a feature designed to streamline registration and login flows for users.</li>
+							</ul>
+						</div>
+					</div>
+					<!-- Left and right controls -->
+					<a class="carousel-control-prev" href="#experience-carousel" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon"></span>
+					</a>
+					<a class="carousel-control-next" href="#experience-carousel" role="button" data-slide="next">
+						<span class="carousel-control-next-icon"></span>
+					</a>
 				</div>
 			</div>
-			<!-- Left and right controls -->
-			<a class="carousel-control-prev" href="#experience-carousel" role="button" data-slide="prev">
-					<span class="carousel-control-prev-icon"></span>
-				  </a>
-				  <a class="carousel-control-next" href="#experience-carousel" role="button" data-slide="next">
-					<span class="carousel-control-next-icon"></span>
-				  </a>
+		</div>
+		<div class="position">
+			<div class="row" id="position-title">
+				<h2 class="col-lg-6">Software Developer in Test 
+					<br>
+					<small class="text-muted">Mappedin</small>
+				</h2>
+				<h3 class="col-lg-6 text-muted text-right">Jan 2019 - Apr 2019</h3>
+			</div>
+			<div class="container description">
+				<p>
+					Thanks to the smaller company size and the flexibility of my team, I had the amazing opportunity to work on four different key products. I gained exposure to a wide variety of programming languages and 
+					frameworks including everything from the huge variety of available javascript frameworks to OpenGL to Ant Design and React. In addition, although I initially started out doing the things I was hired for, 
+					like manual testing iOS apps and developing basic unit tests, I was quickly able to move on to independently creating complex integration tests, adding new features on a variety of platforms, and even 
+					implementing a huge new animation feature on our Android SDK.
+				</p>
+			</div>
+				
+			<div class="col-md">
+				<div id="experience-carousel" class="carousel slide" data-ride="carousel" data-interval="false">
+					<ul class="carousel-indicators">
+						<li data-target="#experience-carousel" data-slide-to="0" class="active"></li>
+						<li data-target="#experience-carousel" data-slide-to="1"></li>
+						<li data-target="#experience-carousel" data-slide-to="2"></li>
+						<li data-target="#experience-carousel" data-slide-to="3"></li>
+					</ul>
+						
+					<div class="carousel-inner">
+						<div class="carousel-item active" id="node">
+							<h2>Node.js Sync Platform</h2>
+							<ul>
+								<li>Developed unit tests of complex systems using mocha / chai, sinon, and nock to improve test coverage by around 10%.</li>
+								<li>Implemented bug fixes and new features using a variety of javascript libraries such as Joi and Lodash.</li>
+								<li>Independently developed the first integration test spanning five key products and almost every development team! Before, devs had no way of truly knowing the effects new features had on other products until after they were released to the public.</li>
+								<li>Added Sentry integration with thorough documentation to improve error handling abilities of the platform. This allowed over 20 unknown bugs to be caught within the first month of use.</li>
+							</ul>
+						</div>
+					
+						<div class="carousel-item" id="android">
+							<h2>Android SDK</h2>
+							<ul>
+								<li>Greatly improved overall UX using XML on sample apps sent to current and potential customers considering the use of Mappedin's Android SDK</li>
+								<li>Implemented bug fixes and updates using JCPT for features based on customer requests.</li>
+								<li>Developed a new, highly requested animated pulse feature using OpenGL, shaders, and tweens with a wide variety of customization options.</li>
+							</ul>
+						</div>
+					
+						<div class="carousel-item" id="ios">
+								<h2>Web App</h2>
+								<ul>
+									<li>Developed new features to improve UX using React, Redux and Ant Design.</li>
+								</ul>
+						</div>
+		
+						<div class="carousel-item" id="web">
+								<h2>iOS SDK</h2>
+								<ul>
+									<li>Conducted thorough tests of new features through manual tests and unit tests using XCTest.</li>
+								</ul>
+						</div>
+					</div>
+					<!-- Left and right controls -->
+					<a class="carousel-control-prev" href="#experience-carousel" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon"></span>
+					</a>
+					<a class="carousel-control-next" href="#experience-carousel" role="button" data-slide="next">
+						<span class="carousel-control-next-icon"></span>
+					</a>
+				</div>
 			</div>
 		</div>
 	</div>

@@ -56,8 +56,16 @@ body {
     margin-bottom: 50px;
   }
 
+  #position-title {
+    margin-left: 2px;
+  }
+
+  .position {
+    margin-bottom: 15vh;
+  }
+
   .description {
-      margin-bottom: 5vh;
+    margin-bottom: 5vh;
   }
 
   .carousel-item {
@@ -65,7 +73,7 @@ body {
   }
 
   #work-experience .display-4 {
-      margin-bottom: 5vh;
+    margin-bottom: 5vh;
   }
 
   #experience-carousel {
